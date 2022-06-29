@@ -1,0 +1,145 @@
+.containerpage2 {
+  /* width in px=1143 */
+  width: 79.38%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /* background-color: olive; */
+  margin-top: 58px;
+  margin-right: 149px;
+  margin-left: 148px;
+}
+
+.page2title {
+  /* width in px=162 */
+  width: 16%;
+  height: 84px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  /* background-color: red; */
+}
+
+.page2title > p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 84px;
+  /* identical to box height */
+  margin: inherit;
+
+  color: #000000;
+}
+
+.page2desc {
+  /* width in px=771  */
+  width: 70%;
+  height: 103px;
+  margin-top: 19px;
+  margin-left: auto;
+  margin-right: auto;
+  /* background-color: gold; */
+}
+
+.page2desc > p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 150% */
+
+  text-align: center;
+
+  color: #707070;
+  margin: inherit;
+}
+
+.food {
+  /* width in px=1143 */
+  width: 100%;
+  height: 734px;
+
+  margin-top: 30px;
+  /* background-color: sienna; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.foodup {
+  width: 100%;
+  height: 334px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 2.89%;
+}
+.fooddown {
+  width: 100%;
+  height: 334px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 2.89%;
+}
+.f1,
+.f2,
+.f3,
+.f4,
+.f5,
+.f6 {
+  /* width in px=358.67 */
+  width: 31.38%;
+  height: 334px;
+}
+.f1 {
+  position: relative;
+}
+.f1 p {
+  width: 64.15%;
+  height: 144px;
+  position: absolute;
+  top: 130px;
+  left: 40px;
+}
+
+.f1 > p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+
+  color: #ffffff;
+}
+
+.f1 > img {
+  width: 100%;
+  height: 100%;
+}
+.f2 > img {
+  width: 100%;
+  height: 100%;
+}
+.f3 > img {
+  width: 100%;
+  height: 100%;
+}
+.f4 > img {
+  width: 100%;
+  height: 100%;
+}
+.f5 > img {
+  width: 100%;
+  height: 100%;
+}
+.f6 > img {
+  width: 100%;
+  height: 100%;
+}
+
+.foodmenu {
+  margin-top: 20px;
+}
+
+/* end page 2  */
